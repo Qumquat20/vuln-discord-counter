@@ -6,7 +6,7 @@ import asyncio
 from collections import OrderedDict
 from discord.ext import commands
 
-token = token = open("token.txt","r").readline()
+token = open("token.txt","r").readline()
 client = commands.Bot(command_prefix = '!')
 
 def get_int(user):
